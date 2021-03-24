@@ -1,0 +1,24 @@
+{
+    "name": "bamawebsite/currentsnews",
+    "description": "get a news",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amir",
+            "email": "alamamir1996@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bamawebsite\\CurrentsNews\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bamawebsite\\CurrentsNews\\CurrentsNewsServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
