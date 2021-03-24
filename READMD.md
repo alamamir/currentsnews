@@ -1,0 +1,1 @@
+install by :  composer require bamawebsite/currentsnews 
